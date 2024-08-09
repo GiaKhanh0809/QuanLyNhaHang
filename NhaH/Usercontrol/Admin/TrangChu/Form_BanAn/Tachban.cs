@@ -1,18 +1,18 @@
-﻿using DevExpress.XtraBars;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NhaH
+namespace NhaH.Usercontrol.Admin.TrangChu.Form_BanAn
 {
-    public partial class Form1 : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
+    public partial class Tachban : Form
     {
-        public Form1()
+        public Tachban()
         {
             InitializeComponent();
         }

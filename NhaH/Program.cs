@@ -17,7 +17,11 @@ namespace NhaH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new DashBoard_Admin());
+            //Application.Run(new DashBoard_User());
+            Application.Run(new DashBoard_Admin());
+
+
         }
     }
 }

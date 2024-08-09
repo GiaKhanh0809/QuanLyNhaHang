@@ -69,14 +69,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\LoginMethod.cs" />
     <Compile Include="DAO\MenuDanhMucMethod.cs" />
     <Compile Include="DAO\MonAnMethod.cs" />
     <Compile Include="DAO\NhanVienMethod.cs" />
-    <Compile Include="DAO\OrderDAO.cs" />
     <Compile Include="DAO\Session.cs" />
-    <Compile Include="DAO\TableDAO.cs" />
     <Compile Include="DashBoard_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,8 +91,6 @@
     <Compile Include="DTO\GioHang.cs" />
     <Compile Include="DTO\MonAn.cs" />
     <Compile Include="DTO\NhanVienModel.cs" />
-    <Compile Include="DTO\OrderDetail.cs" />
-    <Compile Include="DTO\Table.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
